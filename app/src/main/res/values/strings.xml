@@ -13,4 +13,9 @@
     <string name="yes">Yes</string>
     <string name="no">No</string>
     <string name="version">Version</string>
+    <string name="home">Home</string>
+    <string name="search">Search</string>
+    <string name="playlist">Playlist</string>
+    <string name="favourite">Favourite</string>
+    <string name="settings">Settings</string>
 </resources>

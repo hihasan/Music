@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/home_navigation"
+    app:startDestination="@id/nav_home">
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.hihasan.music.views.home.HomeFragment"
+        android:label="Home Fragment"/>
+    <fragment
+        android:id="@+id/nav_search"
+        android:name="com.hihasan.music.views.search.SearchFragment"
+        android:label="Search Fragment"/>
+    <fragment
+        android:id="@+id/nav_playlist"
+        android:name="com.hihasan.music.views.playlist.PlaylistFragment"
+        android:label="Playlist fragment"/>
+    <fragment
+        android:id="@+id/nav_favourite"
+        android:name="com.hihasan.music.views.favourite.FavouriteFragment"
+        android:label="Favourite Fragment"/>
+    <fragment
+        android:id="@+id/nav_settings"
+        android:name="com.hihasan.music.views.settings.SettingsFragment"
+        android:label="Settings Fragment"/>
+
+</navigation>
