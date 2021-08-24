@@ -96,7 +96,7 @@ dependencies {
     //switch
     implementation 'com.github.zcweng:switch-button:0.0.3@aar'
 
-    //Lotie Files
+    //bLotie Files
     def lottieVersion = "4.1.0"
     implementation "com.airbnb.android:lottie:$lottieVersion"
 

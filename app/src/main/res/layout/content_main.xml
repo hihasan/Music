@@ -22,11 +22,11 @@
     <com.hihasan.boat.ExpandableBottomBar
         android:id="@+id/bottomNavigation"
         android:layout_width="match_parent"
+        android:paddingTop="@dimen/_3sdp"
+        android:paddingBottom="@dimen/_3sdp"
         android:layout_height="?attr/actionBarSize"
-        app:backgroundTint="#fff"
+        android:backgroundTint="@color/prussian_blue"
         app:exb_items="@menu/home_menu"
-        android:paddingLeft="@dimen/_24sdp"
-        android:paddingRight="@dimen/_24sdp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent" />
