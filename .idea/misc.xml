@@ -9,9 +9,11 @@
         <entry key="..\:/Users/Hihasan/Documents/GitHub/Music/app/src/main/res/layout/fragment_home.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Hihasan/Documents/GitHub/Music/app/src/main/res/menu/home_menu.xml" value="0.27291666666666664" />
         <entry key="..\:/Users/Hihasan/Documents/GitHub/Music/app/src/main/res/raw/drawable/ic_baseline_person_24.xml" value="0.2890625" />
+        <entry key="app/src/main/res/drawable/search_bavkground.xml" value="0.4427083333333333" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.44114583333333335" />
         <entry key="app/src/main/res/layout/activity_splash.xml" value="0.44114583333333335" />
         <entry key="app/src/main/res/layout/content_main.xml" value="0.44114583333333335" />
+        <entry key="app/src/main/res/layout/fragment_search.xml" value="0.44114583333333335" />
         <entry key="app/src/main/res/menu/home_menu.xml" value="0.44114583333333335" />
         <entry key="app/src/main/res/menu/menu_main.xml" value="0.44114583333333335" />
       </map>

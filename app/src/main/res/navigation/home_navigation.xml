@@ -8,11 +8,16 @@
         android:id="@+id/nav_home"
         android:name="com.hihasan.music.views.home.HomeFragment"
         android:label="Home Fragment"
-        tools:layout="@layout/fragment_home"/>
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/nav_home_to_nav_search"
+            app:destination="@id/nav_search"/>
+    </fragment>
     <fragment
         android:id="@+id/nav_search"
         android:name="com.hihasan.music.views.search.SearchFragment"
-        android:label="Search Fragment"/>
+        android:label="Search Fragment"
+        tools:layout="@layout/fragment_search"/>
     <fragment
         android:id="@+id/nav_playlist"
         android:name="com.hihasan.music.views.playlist.PlaylistFragment"
