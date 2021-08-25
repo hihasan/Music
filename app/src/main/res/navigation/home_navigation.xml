@@ -12,6 +12,9 @@
         <action
             android:id="@+id/nav_home_to_nav_search"
             app:destination="@id/nav_search"/>
+        <action
+            android:id="@+id/nav_home_to_nav_settings"
+            app:destination="@id/nav_settings"/>
     </fragment>
     <fragment
         android:id="@+id/nav_search"
@@ -21,14 +24,17 @@
     <fragment
         android:id="@+id/nav_playlist"
         android:name="com.hihasan.music.views.playlist.PlaylistFragment"
-        android:label="Playlist fragment"/>
+        android:label="Playlist fragment"
+        tools:layout="@layout/fragment_playlist"/>
     <fragment
         android:id="@+id/nav_favourite"
         android:name="com.hihasan.music.views.favourite.FavouriteFragment"
-        android:label="Favourite Fragment"/>
+        android:label="Favourite Fragment"
+        tools:layout="@layout/fragment_favourite"/>
     <fragment
         android:id="@+id/nav_settings"
         android:name="com.hihasan.music.views.settings.SettingsFragment"
-        android:label="Settings Fragment"/>
+        android:label="Settings Fragment"
+        tools:layout="@layout/fragment_settings"/>
 
 </navigation>

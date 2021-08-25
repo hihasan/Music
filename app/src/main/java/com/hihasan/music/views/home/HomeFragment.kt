@@ -23,12 +23,15 @@ class HomeFragment: BaseFragment(), View.OnClickListener {
         super.onViewCreated(view, savedInstanceState)
         Log.d("Hihasan", "I Came here")
         initListeners()
-//        setupViewPager()
     }
 
     private fun initListeners() {
         binding!!.searchIv.setOnClickListener {
             findNavController().navigate(R.id.nav_home_to_nav_search)
+        }
+
+        binding!!.settingsIv.setOnClickListener{
+            findNavController().navigate(R.id.nav_home_to_nav_settings)
         }
     }
 
