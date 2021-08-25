@@ -5,14 +5,15 @@
     android:layout_height="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:background="@color/prussian_blue">
+
     <com.airbnb.lottie.LottieAnimationView
         android:id="@+id/animationView"
         android:layout_width="@dimen/_256sdp"
         android:layout_height="@dimen/_256sdp"
         android:layout_centerInParent="true"
-        app:lottie_rawRes="@raw/raw_splash"
         app:lottie_autoPlay="true"
-        app:lottie_loop="true"/>
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/raw_splash" />
     <androidx.appcompat.widget.AppCompatTextView
         android:id="@+id/version"
         android:layout_width="wrap_content"

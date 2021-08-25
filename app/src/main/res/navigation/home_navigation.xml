@@ -1,27 +1,40 @@
 <?xml version="1.0" encoding="utf-8"?>
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/home_navigation"
     app:startDestination="@id/nav_home">
     <fragment
         android:id="@+id/nav_home"
         android:name="com.hihasan.music.views.home.HomeFragment"
-        android:label="Home Fragment"/>
+        android:label="Home Fragment"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/nav_home_to_nav_search"
+            app:destination="@id/nav_search"/>
+        <action
+            android:id="@+id/nav_home_to_nav_settings"
+            app:destination="@id/nav_settings"/>
+    </fragment>
     <fragment
         android:id="@+id/nav_search"
         android:name="com.hihasan.music.views.search.SearchFragment"
-        android:label="Search Fragment"/>
+        android:label="Search Fragment"
+        tools:layout="@layout/fragment_search"/>
     <fragment
         android:id="@+id/nav_playlist"
         android:name="com.hihasan.music.views.playlist.PlaylistFragment"
-        android:label="Playlist fragment"/>
+        android:label="Playlist fragment"
+        tools:layout="@layout/fragment_playlist"/>
     <fragment
         android:id="@+id/nav_favourite"
         android:name="com.hihasan.music.views.favourite.FavouriteFragment"
-        android:label="Favourite Fragment"/>
+        android:label="Favourite Fragment"
+        tools:layout="@layout/fragment_favourite"/>
     <fragment
         android:id="@+id/nav_settings"
         android:name="com.hihasan.music.views.settings.SettingsFragment"
-        android:label="Settings Fragment"/>
+        android:label="Settings Fragment"
+        tools:layout="@layout/fragment_settings"/>
 
 </navigation>
