@@ -55,6 +55,7 @@
 
     </RelativeLayout>
     <RelativeLayout
+        android:id="@+id/profile_layer"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="@dimen/_4sdp"
@@ -87,4 +88,43 @@
                 android:text="How Are You Felling Today?"/>
         </RelativeLayout>
     </RelativeLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/profile_layer"
+        android:layout_margin="@dimen/_4sdp">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/top_artist_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_21sdp"
+                android:text="Top Artist"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_artist_tv"
+                android:id="@+id/top_artist_list"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp"/>
+            <androidx.appcompat.widget.AppCompatTextView
+                android:id="@+id/top_albums_tv"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_artist_list"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:textSize="@dimen/_21sdp"
+                android:text="Top Albums"/>
+            <androidx.recyclerview.widget.RecyclerView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/top_albums_tv"
+                android:id="@+id/top_albums_list"
+                android:layout_marginTop="@dimen/_8sdp"
+                android:layout_marginBottom="@dimen/_8sdp" />
+        </RelativeLayout>
+    </ScrollView>
 </RelativeLayout>
