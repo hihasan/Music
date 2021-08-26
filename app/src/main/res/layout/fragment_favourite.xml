@@ -15,7 +15,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_centerVertical="true"
-            android:text="Playlist"
+            android:text="Favourite"
             android:textSize="@dimen/_21sdp" />
         <RelativeLayout
             android:layout_width="wrap_content"
@@ -33,6 +33,13 @@
                 android:src="@drawable/ic_baseline_search_24" />
 
         </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="?attr/actionBarSize"
+        android:layout_below="@id/header"
+        android:layout_centerHorizontal="true">
 
     </RelativeLayout>
 
