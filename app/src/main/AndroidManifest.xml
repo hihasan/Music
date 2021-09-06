@@ -24,6 +24,8 @@
         </activity>
         <activity android:name=".views.MainActivity"
             android:theme="@style/Theme.Music.NoActionBar"/>
+        <activity android:name=".views.RefreshSongsActivity"
+            android:theme="@style/Theme.Music.NoActionBar"/>
 
         <meta-data
             android:name="preloaded_fonts"
